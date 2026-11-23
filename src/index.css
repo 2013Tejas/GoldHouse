@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Playfair Display", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+  --color-cream: #FAF5EF;
+  --color-sand: #EAE0D7;
+  --color-ink: #23211E;
+  --color-terracotta: #9E6853;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    background-color: #FAF5EF;
+    color: #23211E;
+  }
+
+  h1, .font-display-serif {
+    font-family: var(--font-display);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}

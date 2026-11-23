@@ -1,0 +1,6 @@
+{
+  "name": "Goldhouse Real Estate",
+  "description": "Modern architectural homes and bespoke real estate landing page featuring luxury stone-and-timber residences, property search, and custom design-build services.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
